@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4B785FC1C12EC2F001E4868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B785FB1C12EC2F001E4868 /* AppDelegate.swift */; };
+		D4B785FE1C12EC2F001E4868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B785FD1C12EC2F001E4868 /* ViewController.swift */; };
+		D4B786011C12EC2F001E4868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B785FF1C12EC2F001E4868 /* Main.storyboard */; };
+		D4B786041C12EC2F001E4868 /* Twift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4B786021C12EC2F001E4868 /* Twift.xcdatamodeld */; };
+		D4B786061C12EC2F001E4868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B786051C12EC2F001E4868 /* Assets.xcassets */; };
+		D4B786091C12EC2F001E4868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B786071C12EC2F001E4868 /* LaunchScreen.storyboard */; };
+		D4B786141C12EC2F001E4868 /* TwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B786131C12EC2F001E4868 /* TwiftTests.swift */; };
+		D4B7861F1C12EC2F001E4868 /* TwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B7861E1C12EC2F001E4868 /* TwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4B786101C12EC2F001E4868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B785F01C12EC2F001E4868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B785F71C12EC2F001E4868;
+			remoteInfo = Twift;
+		};
+		D4B7861B1C12EC2F001E4868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4B785F01C12EC2F001E4868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4B785F71C12EC2F001E4868;
+			remoteInfo = Twift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4B785F81C12EC2F001E4868 /* Twift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B785FB1C12EC2F001E4868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4B785FD1C12EC2F001E4868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4B786001C12EC2F001E4868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4B786031C12EC2F001E4868 /* Twift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twift.xcdatamodel; sourceTree = "<group>"; };
+		D4B786051C12EC2F001E4868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4B786081C12EC2F001E4868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4B7860A1C12EC2F001E4868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B7860F1C12EC2F001E4868 /* TwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B786131C12EC2F001E4868 /* TwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiftTests.swift; sourceTree = "<group>"; };
+		D4B786151C12EC2F001E4868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B7861A1C12EC2F001E4868 /* TwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B7861E1C12EC2F001E4868 /* TwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiftUITests.swift; sourceTree = "<group>"; };
+		D4B786201C12EC2F001E4868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4B785F51C12EC2F001E4868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B7860C1C12EC2F001E4868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B786171C12EC2F001E4868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4B785EF1C12EC2F001E4868 = {
+			isa = PBXGroup;
+			children = (
+				D4B785FA1C12EC2F001E4868 /* Twift */,
+				D4B786121C12EC2F001E4868 /* TwiftTests */,
+				D4B7861D1C12EC2F001E4868 /* TwiftUITests */,
+				D4B785F91C12EC2F001E4868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4B785F91C12EC2F001E4868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4B785F81C12EC2F001E4868 /* Twift.app */,
+				D4B7860F1C12EC2F001E4868 /* TwiftTests.xctest */,
+				D4B7861A1C12EC2F001E4868 /* TwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4B785FA1C12EC2F001E4868 /* Twift */ = {
+			isa = PBXGroup;
+			children = (
+				D4B785FB1C12EC2F001E4868 /* AppDelegate.swift */,
+				D4B785FD1C12EC2F001E4868 /* ViewController.swift */,
+				D4B785FF1C12EC2F001E4868 /* Main.storyboard */,
+				D4B786051C12EC2F001E4868 /* Assets.xcassets */,
+				D4B786071C12EC2F001E4868 /* LaunchScreen.storyboard */,
+				D4B7860A1C12EC2F001E4868 /* Info.plist */,
+				D4B786021C12EC2F001E4868 /* Twift.xcdatamodeld */,
+			);
+			path = Twift;
+			sourceTree = "<group>";
+		};
+		D4B786121C12EC2F001E4868 /* TwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B786131C12EC2F001E4868 /* TwiftTests.swift */,
+				D4B786151C12EC2F001E4868 /* Info.plist */,
+			);
+			path = TwiftTests;
+			sourceTree = "<group>";
+		};
+		D4B7861D1C12EC2F001E4868 /* TwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4B7861E1C12EC2F001E4868 /* TwiftUITests.swift */,
+				D4B786201C12EC2F001E4868 /* Info.plist */,
+			);
+			path = TwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4B785F71C12EC2F001E4868 /* Twift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B786231C12EC2F001E4868 /* Build configuration list for PBXNativeTarget "Twift" */;
+			buildPhases = (
+				D4B785F41C12EC2F001E4868 /* Sources */,
+				D4B785F51C12EC2F001E4868 /* Frameworks */,
+				D4B785F61C12EC2F001E4868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twift;
+			productName = Twift;
+			productReference = D4B785F81C12EC2F001E4868 /* Twift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4B7860E1C12EC2F001E4868 /* TwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B786261C12EC2F001E4868 /* Build configuration list for PBXNativeTarget "TwiftTests" */;
+			buildPhases = (
+				D4B7860B1C12EC2F001E4868 /* Sources */,
+				D4B7860C1C12EC2F001E4868 /* Frameworks */,
+				D4B7860D1C12EC2F001E4868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B786111C12EC2F001E4868 /* PBXTargetDependency */,
+			);
+			name = TwiftTests;
+			productName = TwiftTests;
+			productReference = D4B7860F1C12EC2F001E4868 /* TwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4B786191C12EC2F001E4868 /* TwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B786291C12EC2F001E4868 /* Build configuration list for PBXNativeTarget "TwiftUITests" */;
+			buildPhases = (
+				D4B786161C12EC2F001E4868 /* Sources */,
+				D4B786171C12EC2F001E4868 /* Frameworks */,
+				D4B786181C12EC2F001E4868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4B7861C1C12EC2F001E4868 /* PBXTargetDependency */,
+			);
+			name = TwiftUITests;
+			productName = TwiftUITests;
+			productReference = D4B7861A1C12EC2F001E4868 /* TwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4B785F01C12EC2F001E4868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kazuki Onishi";
+				TargetAttributes = {
+					D4B785F71C12EC2F001E4868 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = JVD7MKS5HM;
+					};
+					D4B7860E1C12EC2F001E4868 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = JVD7MKS5HM;
+						TestTargetID = D4B785F71C12EC2F001E4868;
+					};
+					D4B786191C12EC2F001E4868 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = JVD7MKS5HM;
+						TestTargetID = D4B785F71C12EC2F001E4868;
+					};
+				};
+			};
+			buildConfigurationList = D4B785F31C12EC2F001E4868 /* Build configuration list for PBXProject "Twift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4B785EF1C12EC2F001E4868;
+			productRefGroup = D4B785F91C12EC2F001E4868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4B785F71C12EC2F001E4868 /* Twift */,
+				D4B7860E1C12EC2F001E4868 /* TwiftTests */,
+				D4B786191C12EC2F001E4868 /* TwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B785F61C12EC2F001E4868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B786091C12EC2F001E4868 /* LaunchScreen.storyboard in Resources */,
+				D4B786061C12EC2F001E4868 /* Assets.xcassets in Resources */,
+				D4B786011C12EC2F001E4868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B7860D1C12EC2F001E4868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B786181C12EC2F001E4868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4B785F41C12EC2F001E4868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B785FE1C12EC2F001E4868 /* ViewController.swift in Sources */,
+				D4B786041C12EC2F001E4868 /* Twift.xcdatamodeld in Sources */,
+				D4B785FC1C12EC2F001E4868 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B7860B1C12EC2F001E4868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B786141C12EC2F001E4868 /* TwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4B786161C12EC2F001E4868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B7861F1C12EC2F001E4868 /* TwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4B786111C12EC2F001E4868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B785F71C12EC2F001E4868 /* Twift */;
+			targetProxy = D4B786101C12EC2F001E4868 /* PBXContainerItemProxy */;
+		};
+		D4B7861C1C12EC2F001E4868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4B785F71C12EC2F001E4868 /* Twift */;
+			targetProxy = D4B7861B1C12EC2F001E4868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4B785FF1C12EC2F001E4868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B786001C12EC2F001E4868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4B786071C12EC2F001E4868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4B786081C12EC2F001E4868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4B786211C12EC2F001E4868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B786221C12EC2F001E4868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4B786241C12EC2F001E4868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Twift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.test.Twift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4B786251C12EC2F001E4868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Twift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.test.Twift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4B786271C12EC2F001E4868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.test.TwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twift.app/Twift";
+			};
+			name = Debug;
+		};
+		D4B786281C12EC2F001E4868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.test.TwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twift.app/Twift";
+			};
+			name = Release;
+		};
+		D4B7862A1C12EC2F001E4868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.test.TwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Twift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4B7862B1C12EC2F001E4868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Test.test.TwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Twift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B785F31C12EC2F001E4868 /* Build configuration list for PBXProject "Twift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B786211C12EC2F001E4868 /* Debug */,
+				D4B786221C12EC2F001E4868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B786231C12EC2F001E4868 /* Build configuration list for PBXNativeTarget "Twift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B786241C12EC2F001E4868 /* Debug */,
+				D4B786251C12EC2F001E4868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4B786261C12EC2F001E4868 /* Build configuration list for PBXNativeTarget "TwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B786271C12EC2F001E4868 /* Debug */,
+				D4B786281C12EC2F001E4868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4B786291C12EC2F001E4868 /* Build configuration list for PBXNativeTarget "TwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B7862A1C12EC2F001E4868 /* Debug */,
+				D4B7862B1C12EC2F001E4868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4B786021C12EC2F001E4868 /* Twift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4B786031C12EC2F001E4868 /* Twift.xcdatamodel */,
+			);
+			currentVersion = D4B786031C12EC2F001E4868 /* Twift.xcdatamodel */;
+			path = Twift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4B785F01C12EC2F001E4868 /* Project object */;
+}
